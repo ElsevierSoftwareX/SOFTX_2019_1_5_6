@@ -1,0 +1,13 @@
+{
+    "name": "Launch via npm",
+    "type": "node",
+    "request": "attach",
+    "cwd": "${workspaceFolder}",
+    "runtimeExecutable": "npm",
+    "sourceMap": true,
+
+    "runtimeArgs": [
+        "run-script", "debug"
+    ],
+    "port": 3000
+}
